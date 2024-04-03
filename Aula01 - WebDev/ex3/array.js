@@ -16,3 +16,16 @@ console.log(veiculos[0]);
 console.log(veiculos[1]);
 console.log(veiculos[2]);
 console.log(veiculos[3]);
+console.log('--ELEMENTOS NO ARRAY VEÍCULOS--');
+console.log(veiculos.length);
+console.log('--Incluindo o novo veículo ao array');
+veiculos.push('Golf');
+console.log('--ELEMENTOS NO ARRAY VEÍCULOS--' + veiculos.length);
+console.log(veiculos);
+
+console.log('--COMANDO DE REPETIÇÃO FOR--');
+
+for (i=0; i<veiculos.length; i++){
+    console.log(veiculos[i]);
+}
+
