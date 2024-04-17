@@ -1,0 +1,28 @@
+.comfortaa {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+
+body {
+    font-family: Comfortaa;
+}
+.container {
+    margin: 50px auto;
+    width: 300px;
+    font-family: Comfortaa;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: Comfortaa;
+}
+button {
+    font-family: Comfortaa;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

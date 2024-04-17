@@ -1,0 +1,24 @@
+.comfortaa {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+body{
+    text-align: center;
+    font-family: Comfortaa;
+}
+
+div {
+    text-align: center;
+}
+
+input[type="text"], h2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#plus{
+    padding-left: 15px;
+    padding-right: 15px;
+}

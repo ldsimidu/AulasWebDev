@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora</title>
+
+<!--FONTE DAORINHA-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h1></h1>
+
+<div class="container">
+    <input type="text" id="num1" placeholder="Insira o primeiro número">
+    <input type="text" id="num2" placeholder="Insira o segundo número">
+
+    <button onclick="calcular('soma')">Soma</button>
+
+    <button onclick="calcular('subtracao')">Subtração</button>
+
+    <button onclick="calcular('multiplicacao')">Multiplicação</button>
+
+    <button onclick="calcular('divisao')">Divisão</button>
+    <p id="resultado"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

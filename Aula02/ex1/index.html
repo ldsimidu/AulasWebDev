@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--FONTE DAORINHA-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Chegou a hora da telinha - DOM (Document Object Model)</h1> <br>
+    <h2>Oferece uma API para interagir com o documento</h2><br><br><br>
+   
+
+    <hr>
+
+
+    <section id="DivSoma">
+        <div>
+            <h2>Soma</h2><br>
+            <input type="number" name="Valor 1" id="n1">
+            <h2 id="plus">+</h2>
+            <input type="number" name="Valor 2" id="n2">
+        </div>
+    
+        <button onclick="soma()">Soma</button> <br><br>
+    
+        <div>
+            <h2>O resultado será:</h2>
+        </div>
+    
+        <label id="r1"></label>
+    </section>
+
+
+    <hr>
+
+
+    <section id="DivSub">
+        <div>
+            <h2>Subtração</h2><br>
+            <input type="number" name="Valor 1" id="n1">
+            <h2 id="plus">-</h2>
+            <input type="number" name="Valor 2" id="n2">
+        </div>
+    
+        <button onclick="sub()">Subtração</button> <br><br>
+    
+        <div>
+            <h2>O resultado será:</h2>
+        </div>
+    
+        <label id="r2"></label>
+    </section>
+
+    <script src="interacao_dom.js"></script>
+
+
+    <hr>
+
+
+    <section id="DivDiv">
+        <div>
+            <h2>Divisão</h2><br>
+            <input type="number" name="Valor 1" id="n1">
+            <h2 id="plus"> / </h2>
+            <input type="number" name="Valor 2" id="n2">
+        </div>
+    
+        <button onclick="div()">Subtração</button> <br><br>
+    
+        <div>
+            <h2>O resultado será:</h2>
+        </div>
+    
+        <label id="r3"></label>
+    </section>
+
+
+    <hr>
+
+
+    <section id="DivMult">
+        <div>
+            <h2>Multiplição</h2><br>
+            <input type="number" name="Valor 1" id="n1">
+            <h2 id="plus"> * </h2>
+            <input type="number" name="Valor 2" id="n2">
+        </div>
+    
+        <button onclick="mult()">Subtração</button> <br><br>
+    
+        <div>
+            <h2>O resultado será:</h2>
+        </div>
+    
+        <label id="r4"></label>
+    </section>
+
+    <script src="interacao_dom.js"></script>
+</body>
+</html>
