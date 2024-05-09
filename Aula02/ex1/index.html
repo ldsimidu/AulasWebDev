@@ -20,19 +20,23 @@
     <h1>Chegou a hora da telinha - DOM (Document Object Model)</h1> <br>
     <h2>Oferece uma API para interagir com o documento</h2><br><br><br>
    
-
+    
     <hr>
 
 
     <section id="DivSoma">
         <div>
             <h2>Soma</h2><br>
-            <input type="number" name="Valor 1" id="n1">
+            <input type="number" name="Valor 1" id="a1">
             <h2 id="plus">+</h2>
-            <input type="number" name="Valor 2" id="n2">
+            <input type="number" name="Valor 2" id="a2">
         </div>
     
-        <button onclick="soma()">Soma</button> <br><br>
+        <button onclick="soma()" class="custom-button">
+           Soma
+        </button>
+
+        <br><br>
     
         <div>
             <h2>O resultado será:</h2>
@@ -48,12 +52,14 @@
     <section id="DivSub">
         <div>
             <h2>Subtração</h2><br>
-            <input type="number" name="Valor 1" id="n1">
+            <input type="number" name="Valor 1" id="b1">
             <h2 id="plus">-</h2>
-            <input type="number" name="Valor 2" id="n2">
+            <input type="number" name="Valor 2" id="b2">
         </div>
     
-        <button onclick="sub()">Subtração</button> <br><br>
+        <button onclick="sub()" class="custom-button">
+           Soma
+        </button><br><br>
     
         <div>
             <h2>O resultado será:</h2>
@@ -62,8 +68,6 @@
         <label id="r2"></label>
     </section>
 
-    <script src="interacao_dom.js"></script>
-
 
     <hr>
 
@@ -71,12 +75,15 @@
     <section id="DivDiv">
         <div>
             <h2>Divisão</h2><br>
-            <input type="number" name="Valor 1" id="n1">
+            <input type="number" name="Valor 1" id="c1">
             <h2 id="plus"> / </h2>
-            <input type="number" name="Valor 2" id="n2">
+            <input type="number" name="Valor 2" id="c2">
         </div>
-    
-        <button onclick="div()">Subtração</button> <br><br>
+        
+        <button onclick="div()" class="custom-button">
+            Divisão
+        </button>
+        <br><br>
     
         <div>
             <h2>O resultado será:</h2>
@@ -92,12 +99,16 @@
     <section id="DivMult">
         <div>
             <h2>Multiplição</h2><br>
-            <input type="number" name="Valor 1" id="n1">
+            <input type="number" name="Valor 1" id="d1">
             <h2 id="plus"> * </h2>
-            <input type="number" name="Valor 2" id="n2">
+            <input type="number" name="Valor 2" id="d2">
         </div>
     
-        <button onclick="mult()">Subtração</button> <br><br>
+
+        <button onclick="mult()" class="custom-button">
+            Multiplição
+        </button>
+        <br><br>
     
         <div>
             <h2>O resultado será:</h2>
